@@ -7,13 +7,13 @@ usage: vim + filename
 * visual
 
 ## Shortcuts on visual mode
-- [ ] i - insert mode
-- [ ] dd  - cut line
-- [ ] u -undo 
-- [ ] yy - copy
-- [ ] p - paste 
-- [ ] . - plays last command 
-- [ ] o - add new line under, or with 'shift + o' above
+- [*] i - insert mode
+- [*] dd  - cut line
+- [*] u -undo 
+- [*] yy - copy line
+- [*] p - paste 
+- [*] . - plays last command 
+- [*] o - add new line under, or with 'shift + o' above
 
 ## Commands (:)
 usage-  ':'  + command letters  

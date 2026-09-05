@@ -23,7 +23,8 @@ done
 ### Writing functions
 ```bash
 greet(){
-echo "hello $1"
+  echo "hello $1"
+  return 0 #signals the functions exec correctly
 }
 for name in $@; do
   greet "$name"

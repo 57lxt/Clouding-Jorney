@@ -27,3 +27,5 @@ xxd - not sure but he used it to get he ascii value of string
 ```echo hellow | xxd```
 ```echo -n hellow | xxd```
 
+## things I learned
+ctrl + D - EOF

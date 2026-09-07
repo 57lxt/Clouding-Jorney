@@ -2,7 +2,8 @@
 ## read cmd options 
 * -p - prompt - usage ```read -p "..." var```
 * -r - don't allow \ to escape character
-* -n "..." - the option removes the hidden new line
+## echo options
+*  -n "..." - the option removes the hidden new line
 
 ## While read
 using read cmd inside while condition to read multiple lines  

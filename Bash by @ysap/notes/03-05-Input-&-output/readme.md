@@ -2,6 +2,7 @@
 ## read cmd options 
 * -p - prompt - usage ```read -p "..." var```
 * -r - don't allow \ to escape character
+* -n "..." - the option removes the hidden new line
 
 ## While read
 using read cmd inside while condition to read multiple lines  
@@ -19,12 +20,6 @@ echo -n hello | ./script - this will not have output because it doesn't have new
 possible solutions
   
 ```while read -r line || [[ -n $line ]]; do ...``` - this means true when sucessfully read or if line variable has something in it 
-
-
-
-## notes
-1. echo -n "..." - the option removes the hidden new line
-2. 
 
 ## commands to try
 xxd - not sure but he used it to get he ascii value of string

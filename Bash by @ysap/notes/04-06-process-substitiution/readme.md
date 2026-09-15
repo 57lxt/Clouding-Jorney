@@ -52,6 +52,7 @@ echo " found $i words"
 -```grep -c d ./words``` #counts the occurrence of d in the file
 -```<<<```
 - Anything that is to the right of pipe ```|``` is being executed on a new shell
+- Process substitution works in stream fashion way, it doesn't wait for the process to finish to start execution. this means if our process fails there is no way for us to know the exit code or if the process failed.
 
 ## Commands to try
 - ``` echo <(uname) #returns file descriptor```
